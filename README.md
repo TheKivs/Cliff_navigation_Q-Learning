@@ -1,0 +1,2 @@
+# Cliff_navigation_Q-Learning
+Cliff walking is a standard undiscounted episodic task with start and goal states, and the usual actions of going UP, DOWN, LEFT or RIGHT. The reward is -1 on all transitions, except in the "cliff" region. Stepping into this region incurs a reward of optimal path -100 and sends the agent instantly back to the start. The graph below shows the performance of the Sarsa and Q-learning methods with epsilon-greedy action selection (epsilon=0.1).
